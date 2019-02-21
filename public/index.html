@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
+	<meta name="apple-mobile-web-app-title" content="Youtube">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="theme-color" content="#ffffff">
+	<link rel="apple-touch-icon" href="assets/img/icon/180x180.png">
+	<link rel="apple-touch-startup-image" href="assets/img/splash/640x1136.png">
+	<link rel="apple-touch-startup-image" href="assets/img/splash/750x1334.png">
+	<link rel="apple-touch-startup-image" href="assets/img/splash/1242x2208.png">
+	<link rel="apple-touch-startup-image" href="assets/img/splash/1125x2436.png">
+	<link rel="apple-touch-startup-image" href="assets/img/splash/1536x2048.png">
+	<link rel="apple-touch-startup-image" href="assets/img/splash/1668x2224.png">
+	<link rel="apple-touch-startup-image" href="assets/img/splash/2048x2732.png">
+	<link rel="manifest" href="manifest.json">
+	<link rel="icon" href="assets/img/icon/favicon.ico" type="image/x-icon">
+	<title>Youtube</title>
+</head>
+<body>
+	<div id="appContainer"></div>
+	<script>
+		if('serviceWorker' in navigator){
+			navigator.serviceWorker.register('/serviceworker.js').then(function(){
+				console.log("Service Worker Registered");
+			});
+		}
+	</script>
+	<script src="bundle.js"></script>
+</body>
+</html>

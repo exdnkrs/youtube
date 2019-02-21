@@ -1,0 +1,37 @@
+{
+  "name"              : "youtube",
+  "short_name"        : "youtube",
+  "description"       : "youtube",
+  "start_url"         : "https://crowbar.work/youtube",
+  "display"           : "fullscreen",
+  "orientation"       : "portrait",
+  "background_color"  : "#FFFFFF",
+  "theme_color"       : "#FFFFFF",
+  "icons": [
+    {
+      "src"           : "img/icon/72x72.png",
+      "sizes"         : "72x72",
+      "type"          : "image/png"
+    },
+    {
+      "src"           : "img/icon/152x152.png",
+      "sizes"         : "152x152",
+      "type"          : "image/png"
+    },
+    {
+      "src"           : "img/icon/192x192.png",
+      "sizes"         : "192x192",
+      "type"          : "image/png"
+    },
+    {
+      "src"           : "img/icon/256x256.png",
+      "sizes"         : "256x256",
+      "type"          : "image/png"
+    },
+    {
+      "src"           : "img/icon/512x512.png",
+      "sizes"         : "512x512",
+      "type"          : "image/png"
+    }
+  ]
+}

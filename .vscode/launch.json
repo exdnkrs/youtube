@@ -1,0 +1,19 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    // ローカルにあるファイルをデバッグ
+    {
+      // デバッグ設定の名称
+      "name": "Launch local file",
+      // デバッグ種別を指定（chrome/node/monoなど）
+      "type": "chrome",
+      // lanunchまたはattachを指定
+      "request": "launch",
+      // 読み込むHTMLファイルを指定（プロジェクトからのパスを指定）
+      "file": "${workspaceRoot}/index.html"
+    }
+  ]
+}
